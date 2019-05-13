@@ -1,0 +1,24 @@
+{
+  "name": "google-book-search",
+  "version": "1.0.0",
+  "description": "Google Book Search built with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cliftonbnoble/google-book-search.git"
+  },
+  "keywords": [
+    "React",
+    "Google",
+    "Books"
+  ],
+  "author": "Clifton Noble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cliftonbnoble/google-book-search/issues"
+  },
+  "homepage": "https://github.com/cliftonbnoble/google-book-search#readme"
+}
