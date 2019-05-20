@@ -2,11 +2,11 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const bookSchema = new Schema({
-  title: { type: Array, required: true },
-  authors: { type: String, required: true },
+  title: String,
+  authors: Array,
   description: String,
-  image: { type: Array, required: true },
-  link: { type: String, required: true, unique: true }
+  image: Array,
+  link: String
 });
 
 const Book = mongoose.model("Book", bookSchema);
