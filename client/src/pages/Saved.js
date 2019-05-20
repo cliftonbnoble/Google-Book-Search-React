@@ -3,7 +3,7 @@ import SavedGlobal from "../components/SavedGlobal";
 
 class Saved extends Component {
     render() {
-        return (<SavedGlobal />)
+        return (<SavedGlobal/>)
     }
 }
 

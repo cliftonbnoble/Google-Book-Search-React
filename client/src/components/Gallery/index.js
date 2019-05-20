@@ -13,7 +13,7 @@ class Gallery extends Component {
           })
     }
     render() {
-        let altImage = 'http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Play-Books-icon.png';
+        let altImage = 'http://www.cliftonnoble.com/wp-content/uploads/2019/05/book-emoji.png';
         return (
 
             <div className="book-list-wrapper">
@@ -39,19 +39,18 @@ class Gallery extends Component {
                                         image={item.volumeInfo.imageLinks}
                                         link={item.volumeInfo.infoLink}
                                         saveBook={this.saveBook}/>
-                                    <a className="book" href={infoLink} target="_blank">
+                                    <a className="book" href={infoLink} rel="noopener noreferrer" target="_blank">
                                     <div className="book-title white-text">
                                             <h3>{bookTitle}</h3>
                                         </div>
                                     </a>
                                     <p className="authors"><strong>Author: </strong>{authors}</p>
                                     <div className="book-inner-flex">
-                                    <a className="book" href={infoLink} target="_blank">
+                                    <a className="book" href={infoLink} rel="noopener noreferrer" target="_blank">
                                         <div className="book-image-wrapper">
                                             <img src={imageLinks !== undefined ? imageLinks.thumbnail : altImage}
-                                                alt="Book Image"
-                                                className="book-image"
-                                            />
+                                                alt="Book"
+                                                className="book-image"/>
                                         </div>
                                         
                                     </a>

@@ -37,7 +37,7 @@ class Search extends Component{
                         placeholder = "Search for a book"
                         onChange = { event => this.setState({query: event.target.value})} 
                         onKeyPress = { event => {
-                            if(event.key == "Enter"){
+                            if(event.key === "Enter"){
                                 this.search();
                             }
                         }}

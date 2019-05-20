@@ -22,7 +22,7 @@ class SavedGallery extends Component {
     }
 
     render() {
-        let altImage = 'http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Play-Books-icon.png';
+        let altImage = 'http://www.cliftonnoble.com/wp-content/uploads/2019/05/book-emoji.png';
         // Prevents page from loading until GET request is complete, preventing error
         if(!this.state.promiseIsResolved){return null}
         else{
@@ -42,17 +42,17 @@ class SavedGallery extends Component {
                                     id={item._id}
                                     deleteSaved={this.deleteSaved.bind(this)}
                                 />}
-                                <a className="book" href={link} target="_blank">
+                                <a className="book" href={link} rel="noopener noreferrer" target="_blank">
                                 <div className="book-title white-text">
                                         <h3>{bookTitle}</h3>
                                     </div>
                                 </a>
                                 <p><strong>Author: </strong>{authors}</p>
                                 <div className="book-inner-flex">
-                                <a className="book" href={link} target="_blank">
+                                <a className="book" href={link} rel="noopener noreferrer" target="_blank">
                                     <div className="book-image-wrapper">
                                         <img src={image[0] !== undefined ? image[0].thumbnail : altImage}
-                                            alt="Book Image"
+                                            alt="Book"
                                             className="book-image"
                                         />
                                     </div>
