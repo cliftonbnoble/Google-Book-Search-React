@@ -36,7 +36,7 @@ class SavedGallery extends Component {
                     let { authors, title, image, link, description, _id } = item;
                     let bookTitle = item.title;
                     return (
-                        <div key={index} className="col-sm-12 col-md-4 col-lg-12 book-column">
+                        <div key={index} className="col-sm-12 col-md-12 col-lg-12 book-column">
                             <div className="book-wrapper">
                                 {<Delete
                                     id={item._id}

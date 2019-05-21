@@ -30,7 +30,7 @@ class Gallery extends Component {
                         let { title, imageLinks, infoLink, description, authors } = item.volumeInfo;
                         let bookTitle = item.volumeInfo.title;
                         return (
-                            <div key={index} className="col-sm-12 col-md-4 col-lg-12 book-column">
+                            <div key={index} className="col-sm-12 col-md-12 col-lg-12 book-column">
                                 <div className="book-wrapper">
                                 <Save 
                                         title={item.volumeInfo.title}
