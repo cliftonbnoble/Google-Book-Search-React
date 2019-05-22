@@ -1,13 +1,16 @@
-# React Google Books Search
+# Google Book Search
+
+## Built with React
+
+### Check out the project here
+CLICK HERE => [here](https://floating-sands-34513.herokuapp.com/).
 
 ## Description
 React Google Books Search allows users to search Google Books for books and save them in a MongoDB database. It was built using MongoDB, Express, React, and Node.js.
 
 ## Instructions
-Navigate using the tabs at the top of page. On the search page, search for a book and then save it using the save button. On the saved books page, press the delete button to delete saved books from your saved list.
+Search for your favorite book.  See what you like?  Save it for later retrival.  You can delete saved books from the saved books tab once you are done with them.
 
-## Deployed Project
-The deployed project can be found [here](https://react-google-books-search-afh.herokuapp.com/).
 
 ## Example Image
-![React Google Books Search](https://i.ibb.co/J5Vzc8J/React-Google-Books-Search-Resize-50.png)
+![Google Book Search](http://www.cliftonnoble.com/wp-content/uploads/2019/05/google-book-search.jpg)
